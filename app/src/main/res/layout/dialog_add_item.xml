@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama" />
+
+    <EditText
+        android:id="@+id/edit_text_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jumlah (Rp)"
+        android:inputType="number" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_type"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent" >
+
+        <RadioButton
+            android:id="@+id/radio_type_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uang Masuk"
+            android:checked="true"
+            android:layout_weight="1"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_type_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uang Keluar"
+            android:layout_weight="1"
+            />
+
+
+    </RadioGroup>
+
+</LinearLayout>
