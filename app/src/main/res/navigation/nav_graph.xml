@@ -18,11 +18,21 @@
     <fragment
         android:id="@+id/SecondFragment"
         android:name="id.kasnyut.SecondFragment"
-        android:label="@string/second_fragment_label"
+        android:label="Tentang Aplikasi"
         tools:layout="@layout/fragment_second">
 
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ThirdFragment"
+        android:name="id.kasnyut.ThirdFragment"
+        android:label="Total Income                                                                    "
+        tools:layout="@layout/fragment_third">
+
+        <action
+            android:id="@+id/action_ThirdFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
 </navigation>
