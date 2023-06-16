@@ -28,7 +28,17 @@
     <fragment
         android:id="@+id/ThirdFragment"
         android:name="id.kasnyut.ThirdFragment"
-        android:label="Total Income                                                                    "
+        android:label="Total Income"
+        tools:layout="@layout/fragment_third">
+
+        <action
+            android:id="@+id/action_ThirdFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FourthFragment"
+        android:name="id.kasnyut.FourthFragment"
+        android:label="Berita"
         tools:layout="@layout/fragment_third">
 
         <action

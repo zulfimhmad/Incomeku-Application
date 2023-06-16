@@ -50,7 +50,7 @@ class FirstFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val dbHelper = DatabaseHelper(requireContext())
 
-        recyclerView = view.findViewById(R.id.rv)
+        recyclerView = view.findViewById(R.id.recyclerView)
         getAllItems(dbHelper);
 
         val fab: FloatingActionButton = view.findViewById(R.id.fab)

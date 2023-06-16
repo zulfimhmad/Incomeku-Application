@@ -8,8 +8,14 @@
         android:title="Hitung Total"
      />
     <item
+        android:id="@+id/action_news"
+        android:orderInCategory="100"
+        android:title="Berita Finansial"
+        />
+    <item
         android:id="@+id/action_about"
         android:orderInCategory="100"
-        android:title="About"
+        android:title="Tentang Aplikasi"
      />
+
 </menu>
